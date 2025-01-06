@@ -3,16 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello World</title>
+    <title>Banned From Sandwich</title>
+    <script src="https://cdn.tailwindcss.com"></script>
     <style>
-        body { font-family: Arial, sans-serif; text-align: center; margin-top: 50px; }
+        @import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+        body { font-family: 'Space Mono', monospace; }
     </style>
 </head>
-<body>
-    <h1>Hello World</h1>
-    <p id="time"></p>
-    <script>
-        document.getElementById('time').innerText = 'The current local time is: 2025-01-05T21:34:47-05:00';
-    </script>
+<body class="bg-black text-white p-8">
+    <div class="max-w-7xl mx-auto">
+        <h1 class="text-5xl font-bold text-center mb-12 border-b-4 border-white pb-4">BANNED FROM SANDWICH</h1>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Grid Item 1 -->
+            <div class="border-2 border-white">
+                <img src="./assets/jpeg/daniel.jpeg" class="w-full h-64 object-cover border-b-2 border-white">
+                <div class="p-4">
+                    <h3 class="text-xl font-bold mb-2 uppercase">Daniel Rego</h3>
+                    <p class="mb-4 text-gray-400">Offense: PDA in Living Room</p>
+                    <p class="text-sm text-gray-500 border-t-2 border-white pt-2">One Week (01/04/2025 - 01/11/2025)</p>
+                </div>
+            </div>
+
+            <!-- Grid Item 2 -->
+            <div class="border-2 border-white">
+                <img src="./assets/jpeg/cait.jpeg" class="w-full h-64 object-cover border-b-2 border-white">
+                <div class="p-4">
+                    <h3 class="text-xl font-bold mb-2 uppercase">Cait Durrance</h3>
+                    <p class="mb-4 text-gray-400">Offense: PDA in Living Room</p>
+                    <p class="text-sm text-gray-500 border-t-2 border-white pt-2">One Week (01/04/2025 - 01/11/2025)</p>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
