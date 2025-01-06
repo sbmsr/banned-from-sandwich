@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <g fill="none" stroke="white" stroke-width="2">
+    <!-- Top bread slice -->
+    <path d="M20,35 Q50,25 80,35 L80,40 Q50,30 20,40 Z" fill="#FFB74D"/>
+    <!-- Lettuce -->
+    <path d="M20,40 Q50,35 80,40 L80,45 Q50,40 20,45 Z" fill="#81C784"/>
+    <!-- Tomato -->
+    <path d="M20,45 Q50,40 80,45 L80,50 Q50,45 20,50 Z" fill="#E57373"/>
+    <!-- Cheese -->
+    <path d="M20,50 Q50,45 80,50 L80,55 Q50,50 20,55 Z" fill="#FFD54F"/>
+    <!-- Bottom bread slice -->
+    <path d="M20,55 Q50,50 80,55 L80,60 Q50,55 20,60 Z" fill="#FFB74D"/>
+  </g>
+</svg>
